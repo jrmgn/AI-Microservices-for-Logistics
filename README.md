@@ -10,9 +10,11 @@ Setup
 3. Run the API: `python -m uvicorn app.main:app --reload`
 
 Testing
+
 Run the automated test suite:
 `python -m pytest tests/test_behavior_api.py`
 
 API Authentication
+
 All endpoints require the following header:
 `x-api-key: your-secret-token`
