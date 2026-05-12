@@ -9,10 +9,12 @@ Setup
 2. Train the model: `python scripts/train_behavior.py`
 3. Run the API: `python -m uvicorn app.main:app --reload`
 
+
 Testing
 
 Run the automated test suite:
 `python -m pytest tests/test_behavior_api.py`
+
 
 API Authentication
 
